@@ -1,0 +1,19 @@
+version: '3'
+services:
+  web:
+    build:
+      context: . #says the folder we want the build to come from
+      dockerfile: Dockerfile #location of the docker file
+    ports:
+      - "3000:3000"
+    volumes:
+      - /app/node_modules
+      - .:/app #map the outside folder to the inside folder of app
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - /app/node_modules
+      - .:/app
+    command: ["npm","run","test"]

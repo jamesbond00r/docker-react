@@ -1,0 +1,18 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <JSCodeStyleSettings version="0">
+      <option name="REFORMAT_C_STYLE_COMMENTS" value="true" />
+    </JSCodeStyleSettings>
+    <codeStyleSettings language="JavaScript">
+      <option name="RIGHT_MARGIN" value="140" />
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+      <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
+      <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+      <option name="WRAP_COMMENTS" value="true" />
+    </codeStyleSettings>
+    <codeStyleSettings language="Markdown">
+      <option name="RIGHT_MARGIN" value="140" />
+    </codeStyleSettings>
+  </code_scheme>
+</component>
